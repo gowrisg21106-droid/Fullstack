@@ -1,0 +1,39 @@
+
+body {
+  font-family: Arial;
+  background-color: lightgray;
+}
+.navbar {
+  background-color: navy;
+  padding: 15px;
+  text-align: right;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+}
+h1 {
+  text-align: center;
+  color: navy;
+  margin: 30px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  background-color: white;
+  border: 1px solid black;
+  padding: 20px;
+  width: 200px;
+  border-radius: 10px;
+}
+.card h2 {
+  color: navy;
+  text-align: center;
+}
+.card p {
+  color: black;
+}
